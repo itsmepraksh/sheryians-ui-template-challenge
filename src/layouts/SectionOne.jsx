@@ -1,8 +1,11 @@
-import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
+ 
 import oImgOne from "../assets/images/o-img-one.png";
 import oImgTwo from "../assets/images/o-img-two.png";
-import heroImg from "../assets/images/herro-img.png";
+import heroImg from "../assets/images/herro-img.png"; 
+import MagicBtn from "../components/MagicBtn";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import SlideBar from "../components/SlideBar";
 
 const SectionOne = () => {
   return (
@@ -28,25 +31,19 @@ const SectionOne = () => {
           GY
         </h1>
 
-        <div className="flex justify-between gap-5 md:justify-between 2xl:justify-around md:w-[75%] xl:w-[85%]">
+        <div className="flex justify-between gap-5 md:justify-between  md:w-[75%] xl:w-[85%] 2xl:w-[95%]">
           <h3 className="text-2xl md:text-3xl xl:text-5xl 2xl:text-6xl font-bold">
             APPROACH
           </h3>
-          <div className="animate-btn bg-black    flex items-center  text-xs rounded-3xl gap-1 ">
-            <FontAwesomeIcon
-              className="bg-white text-black p-2 rounded-full m-[3px]"
-              icon={faWandMagicSparkles}
-            />
-            <p className=" bg-yellow-400 text-gray-800 px-3 py-[8px]  rounded-3xl">
-              Start Animating
-            </p>
-          </div>
+        <MagicBtn/>
         </div>
       </div>
 
-      <div className="heroimg relative w-full m-0">
-        <div className="bg-black bottom-0  absolute w-full h-20"></div>
-        <img src={heroImg} className="relative z-[9]" alt="" />
+      <div className="heroimg overflow-hidden relative w-full mt-10 md:mt-5 lg:-mt-8 xl:-mt-12 2xl:-mt-20">
+        <SlideBar styling={'absolute bottom-5 lg:bottom-0 -left-7 -rotate-[5deg] lg:-rotate-[4deg] xl:-rotate-[3deg] z-[1]'}/>
+        <SlideBar styling={'absolute bottom-20 lg:bottom-16 -left-5 -rotate-[5deg] lg:-rotate-[4deg] xl:-rotate-[3.5deg] z-[1]'}/>
+        <div className="bg-black bottom-0  absolute w-full h-25 md:h-30 lg:h-35 xl:h-40 2xl:h-45"></div>
+        <img src={heroImg} className="relative z-[9] md:w-[75%] lg:w-[50%] xl:w-[40%] 2xl:w-[30%]  flex justify-self-center " alt="" />
       </div>
     </div>
   );
