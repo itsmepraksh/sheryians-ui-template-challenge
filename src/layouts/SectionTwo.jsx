@@ -5,10 +5,10 @@ import adobe from "../assets/images/icon-four.jpg";
 const SectionTwo = () => {
   // flex flex-col font-medium items-center justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:py-12
   return (
-    <div className="section-two flex gap-5 flex-col font-medium items-center justify-between xl:justify-self-center  w-full px-[2rem]      py-7  ">
-      <div className="support-by font-info text-zinc-800 text-lg w-full ">
+    <div className="section-two flex gap-5 md:gap-10 flex-col md:flex-row font-medium items-center justify-between xl:justify-self-center  w-full xl:w-[80%] 2xl:w-[65%] px-[2rem] lg:px-[6rem]     py-7  ">
+      <div className="support-by font-info text-zinc-800 text-lg w-full lg:w-1/2 ">
         <h1>Supported By:</h1>
-        <div className="company-logo text-xs  flex gap-4 items-center justify-around w-full  mt-4">
+        <div className="company-logo text-xs  flex gap-4 items-center justify-around w-full lg:w-[85%]  mt-4">
           <div>
             <img
               src={dallE}
@@ -41,7 +41,7 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-      <div className="customer-data py-4  w-full ">
+      <div className="customer-data py-4  w-full lg:w-1/2 ">
         <div className="stats-info flex justify-around ">
           <div>
             <h1 className="font-league text-2xl font-bold">1M</h1>
@@ -56,7 +56,7 @@ const SectionTwo = () => {
             <p className="text-[0.7rem] font-medium">Happy Clients</p>
           </div>
         </div>
-        <div className="flex items-center justify-between mt-8 w-full   ">
+        <div className="flex items-center justify-self-end justify-between mt-8 w-full lg:w-[85%]  ">
           <div className="flex  w-1/3 ">
             <img
               className="w-9  h-9 rounded-full object-cover object-top"

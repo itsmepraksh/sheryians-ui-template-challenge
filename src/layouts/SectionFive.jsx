@@ -2,7 +2,7 @@
 
 const SectionFive = () => {
   return (
-    <div className="section-five">
+    <div className="section-five flex flex-col font-medium lg:items-center lg:justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:py-12">
         <div>
           <h1>the future of art with ai</h1>
           <div>logo <h1>start Animating</h1></div>

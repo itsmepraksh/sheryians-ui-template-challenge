@@ -19,9 +19,9 @@ const App = () => {
  
       
       <SectionOne/>
-      {/* <SectionTwo/> */}
-      {/* <SectionThree/> */}
-      {/* <SectionFour/> */}
+      <SectionTwo/>
+      <SectionThree/>
+      <SectionFour/>
       {/* <SectionFive/> */}
       {/* <SectionSix/> */}
       {/* <SectionSeven/> */}
