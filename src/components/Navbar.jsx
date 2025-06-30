@@ -15,7 +15,7 @@ const Navbar = () => {
         <a>Pricing</a>
       </div>
       <div className="flex items-center  gap-2 md:gap-5">
-        <Button styling={"bg-black text-white"} />
+        <Button styling={"bg-black text-white"} text={"Log in"} />
         <FontAwesomeIcon icon={faBars} className="block lg:!hidden " />
       </div>
     </div>

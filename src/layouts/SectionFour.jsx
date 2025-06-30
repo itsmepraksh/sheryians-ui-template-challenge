@@ -10,7 +10,7 @@ const SectionFour = () => {
   return (
     <div className="section-four flex flex-col font-medium lg:items-center lg:justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:py-12">
         <h1 className="font-league text-3xl font-bold py-4 align-left w-full uppercase">explore <br/><span className="pl-18">categories</span></h1>
-        <div className='flex flex-col md:flex-wrap md:flex-row gap-6 2xl:gap-11'>
+        <div className='flex flex-col md:flex-wrap md:flex-row gap-6 '>
           
           <div className='md:w-[48%] lg:w-[27%] '>
               <p className="font-league text-xl font-bold py-4 ">30+ Categories</p>

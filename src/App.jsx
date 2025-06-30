@@ -22,9 +22,9 @@ const App = () => {
       <SectionTwo/>
       <SectionThree/>
       <SectionFour/>
-      {/* <SectionFive/> */}
-      {/* <SectionSix/> */}
-      {/* <SectionSeven/> */}
+      <SectionFive/>
+      <SectionSix/>
+      <SectionSeven/>
       {/* <SectionEight/> */}
       {/* <Footer/> */}
       
