@@ -4,8 +4,10 @@ import MagicBtn from "../components/MagicBtn";
 
 const SectionFive = () => {
   return (
-    <div className="section-five flex flex-col font-medium lg:items-center lg:justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:py-12">
-      <div>
+    <div className="section-five flex flex-col gap-5 md:flex-row font-medium lg:items-center lg:justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:py-12">
+      
+      <div className="my-4">
+        <div>
         <h1 className="font-league text-3xl font-bold py-4 uppercase">
           the future of art with ai
         </h1>
@@ -16,7 +18,6 @@ const SectionFive = () => {
           textstyle={"!bg-white !text-sm"}
         />
       </div>
-      <div className="my-4">
         <img src={sectionFourA} alt="hero-img-3" />
 
         <div className="my-4">
@@ -32,13 +33,12 @@ const SectionFive = () => {
         </div>
       </div>
 
-      <div>
-        <img src={sectionFourB} alt="hero-img-3" />
-
+      <div className="md:mt-[25%]">
         <div>
           <h1 className='font-league text-2xl font-bold py-4 uppercase'>unleash imagination</h1>
-          <p  className='text-xs font-info text-gray-500'>PixelAlchemy is a unique platform where technology and creativity blend seamlessly to produce captivating Al-generated art. Designed for artists, enthusiasts, and newcomers alike, PixelAlchemy provides an immersive space to explore</p>
+          <p  className='text-xs pb-4 font-info text-gray-500'>PixelAlchemy is a unique platform where technology and creativity blend seamlessly to produce captivating Al-generated art. Designed for artists, enthusiasts, and newcomers alike, PixelAlchemy provides an immersive space to explore</p>
         </div> 
+        <img src={sectionFourB} alt="hero-img-3" />
       </div>
       
 
