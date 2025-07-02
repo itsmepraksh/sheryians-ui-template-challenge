@@ -25,8 +25,8 @@ const App = () => {
       <SectionFive/>
       <SectionSix/>
       <SectionSeven/>
-      {/* <SectionEight/> */}
-      {/* <Footer/> */}
+      <SectionEight/>
+      <Footer/>
       
       
       

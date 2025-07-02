@@ -13,7 +13,7 @@ const SectionThree = () => {
             <h1 className='font-league text-3xl font-bold py-4 uppercase'>Explore the magic of pixelai</h1>
             <p className='text-xs font-info text-gray-500'>PixelAlchemy is a unique platform where technology and creativity blend seamlessly to produce captivating Al-generated art. Designed for artists, enthusiasts, and newcomers alike, PixelAlchemy provides an immersive space to explore</p>
           
-            <MagicBtn styling={'bg-transparent mt-8 '} fontstyle={'bg-yellow-400 !py-2 !px-[0.5rem] xl:text-2xl'} textstyle={'!bg-white !text-sm'}/>
+            <MagicBtn styling={'bg-transparent mt-8 '} fontstyle={'bg-yellow-400 text-sm p-2 m-[2px] xl:p-3'} textstyle={'!bg-white !text-sm'}/>
           </div>
         </div>
       </div>

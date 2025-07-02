@@ -8,7 +8,7 @@ import categorySix from '../assets/images/category-img6.png';
 
 const SectionFour = () => {
   return (
-    <div className="section-four flex flex-col font-medium lg:items-center lg:justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:py-12">
+    <div className="section-four flex flex-col font-medium lg:items-center lg:justify-between xl:justify-self-center xl:w-[80%]  2xl:w-[65%]  px-[2rem] md:px-[4rem] lg:px-[6rem]  py-7 md:my-12">
         <h1 className="font-league text-3xl font-bold py-4 align-left w-full uppercase">explore <br/><span className="pl-18">categories</span></h1>
         <div className='flex flex-col md:flex-wrap md:flex-row gap-6 '>
           
@@ -16,7 +16,7 @@ const SectionFour = () => {
               <p className="font-league text-xl font-bold py-4 ">30+ Categories</p>
               <img className='  ' src={categoryOne} alt="category-img1" />
           </div>
-          <img className='md:w-[48%] lg:w-[40%]' src={categoryTwo} alt="category-img2" />
+          <img className='md:w-[48%] lg:w-[40%] object-cover' src={categoryTwo} alt="category-img2" />
           <img className='md:w-[48%] lg:w-[27%] lg:h-[80%] lg:mt-12' src={categoryThree} alt="category-img3" />
           <img className='md:w-[48%] lg:w-[27%] lg:ml-5 lg:-mt-5 lg:h-[80%]' src={categoryFour} alt="category-img4" />
           <img className='md:w-[48%] lg:w-[35%] lg:h-[75%]' src={categoryFive}  alt="category-img5" />

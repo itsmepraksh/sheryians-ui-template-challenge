@@ -14,7 +14,7 @@ const SectionFive = () => {
 
         <MagicBtn
           styling={"bg-transparent my-2 "}
-          fontstyle={"bg-yellow-400 !py-2 !px-[0.5rem] xl:text-2xl"}
+          fontstyle={"bg-yellow-400 text-sm p-2 m-[2px] xl:p-3"}
           textstyle={"!bg-white !text-sm"}
         />
       </div>

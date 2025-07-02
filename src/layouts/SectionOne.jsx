@@ -35,7 +35,7 @@ const SectionOne = () => {
           <h3 className="text-2xl md:text-3xl xl:text-5xl 2xl:text-6xl font-bold">
             APPROACH
           </h3>
-        <MagicBtn/>
+        <MagicBtn styling={'!p-0 !m-0 border-white border-[2px] xl:h-1/2'} fontstyle={'bg-white text-sm p-2 m-[2px] '} textstyle={'text-xs text-white bg-yellow-400 h-full  px-2 py-2 xl:py-3 border-none'}/>
         </div>
       </div>
 
